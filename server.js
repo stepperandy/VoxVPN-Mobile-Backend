@@ -31,18 +31,28 @@ app.post("/api/login", (req, res) => {
 app.get("/api/servers", (req, res) => {
   res.json({
     success: true,
-    servers: [
-      { id: "amsterdam", name: "Netherlands - Amsterdam", file: "amsterdam.ovpn" },
-      { id: "chicago", name: "USA - Chicago", file: "chicago.ovpn" },
-      { id: "london", name: "UK - London", file: "london.ovpn" },
-      { id: "losangeles", name: "USA - Los Angeles", file: "losangeles.ovpn" },
-      { id: "newjersey", name: "USA - New Jersey", file: "newjersey.ovpn" },
-      { id: "singapore", name: "Singapore", file: "singapore.ovpn" },
-      { id: "frankfurt", name: "Germany - Frankfurt", file: "frankfurt.ovpn" },
-      { id: "johannesburg", name: "South Africa - Johannesburg", file: "johannesburg.ovpn" },
-      { id: "siliconvalley", name: "USA - Silicon Valley", file: "siliconvalley.ovpn" },
-      { id: "sydney", name: "Australia - Sydney", file: "sydney.ovpn" }
-    ]
+server: [
+  { id: "amsterdam", name: "Amsterdam", file: "Amsterdam.ovpn" },
+  { id: "atlanta", name: "Atlanta", file: "Atlanta.ovpn" },
+  { id: "chicago", name: "Chicago", file: "Chicago.ovpn" },
+  { id: "frankfurt", name: "Frankfurt", file: "Frankfurt.ovpn" },
+  { id: "johannesburg", name: "Johannesburg", file: "Johannesburg.ovpn" },
+  { id: "london", name: "London", file: "London.ovpn" },
+  { id: "losangeles", name: "Los Angeles", file: "Losangeles.ovpn" },
+  { id: "madrid", name: "Madrid", file: "Madrid.ovpn" },
+  { id: "manchester", name: "Manchester", file: "Manchester.ovpn" },
+  { id: "melbourne", name: "Melbourne", file: "Melbourne.ovpn" },
+  { id: "miami", name: "Miami", file: "Miami.ovpn" },
+  { id: "milan", name: "Milan", file: "Milan.ovpn" },
+  { id: "newjersey", name: "New Jersey", file: "Newjersey.ovpn" },
+  { id: "paris", name: "Paris", file: "Paris.ovpn" },
+  { id: "seattle", name: "Seattle", file: "Seattle.ovpn" },
+  { id: "siliconvalley", name: "Silicon Valley", file: "Siliconvalley.ovpn" },
+  { id: "singapore", name: "Singapore", file: "Singapore.ovpn" },
+  { id: "sydney", name: "Sydney", file: "Sydney.ovpn" },
+  { id: "tokyo", name: "Tokyo", file: "Tokyo.ovpn" },
+  { id: "toronto", name: "Toronto", file: "Toronto.ovpn" },
+]
   });
 });
 
